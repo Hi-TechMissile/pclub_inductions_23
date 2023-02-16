@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.zoom:hover
+{
+    transition: 1s;
+    transform: scale(1.1);
+}
+.zoom:active
+{
+    transition: 0.5s;
+    transform: scale(1.1);
+    border-color: yellow;
+    border-width: 10px;
+}
+.navbtn
+{
+    border-bottom: 5px solid rgb(107 33 168);
+}
+.navbtn:hover
+{
+    transition: 600ms;
+    border-bottom-width: 100%;
+    border-bottom: 5px solid whitesmoke;
+}
+.navbtn:active
+{
+    transition: 600ms;
+    border-bottom-width: 100%;
+    border-bottom: 5px solid whitesmoke;
+}

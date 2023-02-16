@@ -4,8 +4,83 @@
         <title>E-Buy | Shop Online</title>
         <script src = "https://cdn.tailwindcss.com"></script>
         <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
-    <body>
-        <div class="text-cyan-500 px-20 py-20 font-bold text-3xl">Hi</div>
+    <body class="bg-slate-800 text-white" style="font-family: Cambria, 'Segoe UI', Geneva, Verdana, sans-serif;">
+
+        <div class="bg-purple-800 md:text-xl">
+
+                <button id="nav" class="md:hidden mt-2 py-2 px-3 ml-5 navbtn">
+                    <img width= "25px" src="img/menu.png">
+                </button>
+                <button class="ml-24 md:ml-6 px-3 py-2 navbtn">
+                    Home
+                </button>
+                <button class="hidden md:inline-block px-3 py-2 navbtn">
+                    Books
+                </button>
+                <button class="hidden md:inline-block px-3 py-2 navbtn">
+                    Foods
+                </button>
+                <button class="hidden md:inline-block px-3 py-2 navbtn">
+                    Bags
+                </button>
+                <button class="hidden md:inline-block px-3 py-2 navbtn">
+                    Mobiles
+                </button>
+                <button class="hidden md:inline-block px-3 py-2 navbtn">
+                    Laptops
+                </button>
+                <button class="hidden md:inline-block px-3 py-2 navbtn">
+                    Shoes
+                </button>
+                <button class="px-3 py-2 navbtn">
+                    About
+                </button>
+                <div class="hidden md:inline-block md:float-right mr-12"><img width= "50px" src="img/shopping-cart.png"></div>
+                
+        </div>
+
+        
+            <div id="menu" class="bg-slate-700 text-right absolute hidden text-xl z-10 rounded-r-md">
+                <div class="px-3 mt-5">DEPARTMENTS</div>
+                <button>
+
+                </button>
+            </div>
+
+
+        <div class="grid grid-rows-1 grid-cols-2 px-5 mt-14">
+            <div><img src="img/shopping-cart.png" width="100px" class="md:mx-20 md:w-3/5"></div>
+            <div class="py-8 md:py-36 md:text-6xl">
+                Welcome to E-Buy<hr>
+                <div class="mt-1 md:text-4xl text-sm text-slate-400">
+                    e-commerce website
+                </div>
+            </div>
+        </div>
+        
+        <div class="text-center md:text-3xl text-xl">Explore Products</div>
+        <div class="center ml-8 mr-8 my-10 grid gap-3 grid-cols-2 md:grid-cols-3 md:text-2xl md:mx-32 md:mb-24 md:gap-10">
+            <button class="zoom ml-3 bg-teal-900 px-5 w-5/6 py-3 border-2 border-slate-500 rounded-xl">
+                <img  src = "img/book.png"><br>BOOKS
+            </button>
+            <button class="zoom ml-3 bg-teal-900 px-5 w-5/6 py-3 border-2 border-slate-500 rounded-xl">
+                <img  src = "img/diet.png"><br>FOODS
+            </button>
+            <button class="zoom ml-3 bg-teal-900 px-5 w-5/6 py-3 border-2 border-slate-500 rounded-xl">
+                <img  src = "img/backpack.png"><br>BAGS
+            </button>
+            <button class="zoom ml-3 bg-teal-900 px-5 w-5/6 py-3 border-2 border-slate-500 rounded-xl">
+                <img  src = "img/smartphone.png"><br>MOBILES
+            </button>
+            <button class="zoom ml-3 bg-teal-900 px-5 w-5/6 py-3 border-2 border-slate-500 rounded-xl">
+                <img  src = "img/laptop.png"><br>LAPTOPS
+            </button>
+            <button class="zoom ml-3 bg-teal-900 px-5 w-5/6 py-3 border-2 border-slate-500 rounded-xl">
+                <img  src = "img/shoes.png"><br>SHOES
+            </button>
+        </div>
     </body>
+    <script src = "script.js"></script>
 </html>
