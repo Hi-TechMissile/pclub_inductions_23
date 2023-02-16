@@ -29,3 +29,8 @@
     border-bottom-width: 100%;
     border-bottom: 5px solid whitesmoke;
 }
+.sidebtns:hover
+{
+    background-color: rgb(41, 15, 61);
+    border: solid 3px whitesmoke;
+}
