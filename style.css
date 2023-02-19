@@ -8,7 +8,7 @@
 }
 .zoom:active
 {
-    transition: 0.5s;
+    transition: 1ss;
     transform: scale(1.1);
     border-color: yellow;
     border-width: 10px;
@@ -19,13 +19,13 @@
 }
 .navbtn:hover
 {
-    transition: 600ms;
+    transition: .6s;
     border-bottom-width: 100%;
     border-bottom: 5px solid whitesmoke;
 }
 .navbtn:active
 {
-    transition: 600ms;
+    transition: .6s;
     border-bottom-width: 100%;
     border-bottom: 5px solid whitesmoke;
 }
