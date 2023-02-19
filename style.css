@@ -1,6 +1,9 @@
+/* Using TailwindCSS utility classes */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* For zooming of buttons on hovering */
 .zoom:hover
 {
     transition: 1s;
@@ -13,6 +16,8 @@
     border-color: yellow;
     border-width: 10px;
 }
+
+/* For the appearance of a line under navbar buttons  */
 .navbtn
 {
     border-bottom: 5px solid rgb(107 33 168);
@@ -29,6 +34,8 @@
     border-bottom-width: 100%;
     border-bottom: 5px solid whitesmoke;
 }
+
+/* For the buttons on the navbar, separate CSS is written */
 .sidebtns:hover
 {
     background-color: rgb(41, 15, 61);
@@ -39,6 +46,8 @@
     background-color: rgb(41, 15, 61);
     border: solid 3px whitesmoke;
 }
+
+/* To disable buttons which correspond to items that are out of stock */
 .disabled
 {
     cursor: not-allowed;

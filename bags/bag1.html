@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body class="bg-slate-800 text-white" style="font-family: Cambria, 'Segoe UI', Geneva, Verdana, sans-serif;">
-
+        <!-- This is the top nav-bar. -->
         <div class="bg-purple-800 md:text-xl">
 
             <button id="nav" class="md:hidden mt-2 py-2 px-3 ml-5 navbtn">
@@ -41,7 +41,7 @@
                 
         </div>
 
-        
+        <!-- This is the nav-bar for mobile screens. Implemented using onclick() event of JS. -->
             <div id="menu" class="bg-slate-700 text-right absolute hidden text-xl z-10 rounded-r-md w-7/12" >
                 <div class="px-3 mt-5 text-center">DEPARTMENTS<hr></div><br>
                 <div class="text-center">
@@ -75,7 +75,9 @@
                     </button>
                 </div>
             </div>
+            <!-- Each of the above buttons is a link to their respective department.  -->
 
+            <!-- Grid for images column. Change of images implemented using onlcick() function of JS. -->
             <div class="grid grid-cols-3 mx-8 my-12">
                 <div class="row-span-2">
                     <img src="bag1.png" class="mx-auto text-center z-0 one">
@@ -90,6 +92,7 @@
                         </button>
                     </div> 
                 </div>
+                <!-- Title division -->
                 <div class="col-span-2">
                     <p class="px-3 md:px-10 text-sm font-bold font-sans md:text-3xl">
                         Wildcraft Turnaround Polyester 14 inch 27 Ltrs Blue Laptop Bag
@@ -99,6 +102,7 @@
                 <div class="col-span-2 pt-4">
                     <p class="px-3 md:px-10 text-xl md:text-4xl text-slate-100 font-extrabold">&#8377 1,775</p>
                     <span class="hidden md:block"><br></span>
+                    <!-- 5 images have been used to display the customer rating for the product. -->
                     <div class="grid md:grid-cols-12 grid-cols-8 ml-2 md:ml-10 md:mr-96">
                         <img width="18px" src="star.png">
                         <img width="18px" src="star.png">
@@ -121,6 +125,7 @@
                         Get it by: <span class="bg-green-700">February 20</span>
                     </p>
                     <br>
+                    <!-- Division for product details column on large screens (laptops and desktops)  -->
                     <p class="px-3 md:px-10 hidden md:block text-xs md:text-xl text-slate-100">
                         <u>Product Details:</u><br>
                         Outer Material: Polyester<br>
@@ -133,6 +138,7 @@
                         Note : Laptop compartment has no strap
                     </p>
                 </div>
+                <!-- Division for product details column on mobile screens -->
                 <div class="col-span-3">
                     <p class="md:px-3 md:hidden text-xs md:text-xl text-slate-100">
                         <u>Product Details:</u><br>
@@ -148,9 +154,11 @@
                 </div>
             </div>
 
+            <!-- footer with credits -->
             <footer class="bg-slate-900 pl-8 pt-3 pr-4 text-xs font-sans md:text-base">
                 About<br><hr><br>
                 Made by PC Uma Mahesh, IIT Indore CSE '26 
+                <!-- Grid for social media handles of mine -->
                 <div class="grid grid-cols-10 md:grid-cols-12">
                     <a href="https://www.instagram.com/pcumamahesh/" target="_blank">
                         <img class= "w-3.5 mt-3 md:w-1/4 inline hover:opacity-50 active:opacity-50" src="../img/instagram.png">
